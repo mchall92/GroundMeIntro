@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
-    <title>Easy-Animator</title>
+    <title>GroundMe (Android App)</title>
 </head>
 
 <body>
   <header class="nav-bar">
       <div class="nav-content">
           <div class="nav-logo">
-              <h2>Project - GroundMe</h2>
+              <h2>Project - GroundMe (Android App)</h2>
           </div>
       </div>
   </header>
@@ -27,7 +27,7 @@
           <p>This app lets users create an account through Firebase and 
             allows users to log their stress/anxiety events from our 
             trigger tracker. We store users’ triggers on 
-            <b>Firebase Real-Time Database </b> (NoSQL)
+            <b>Firebase Realtime Database </b> (NoSQL)
             and keep track of when and where the user 
             needs to use the app. For example, if the user approaches 
             places or times that have caused anxiety in the past, the 
@@ -42,7 +42,8 @@
             a maze and into a target hole. There are barriers between 
             the start point for the marble and the target hole. This 
             activity makes use of the accelerometer sensors to determine 
-            the direction and acceleration of the marble.</p>
+            the direction and acceleration of the marble. Size of the
+          maze is dynamically determinted based on screen size.</p>
             <p>
               <b>Painting:</b>
             </p>
@@ -53,9 +54,13 @@
               Prompts are generated randomly to increase interactions 
               with users.
             </p>
-            <p>Finally, all tasks that takes more than a few milliseconds 
+            <p>All tasks that takes more than a few milliseconds 
               are placed in background threads to avoid blocking the
             UI thread.</p>
+            <p>Finally, our application was designed following 
+              <b>agile development, Android quality guidelines</b>
+              and tested under <b>Android StrictMode</b>.
+            </p>
         <h2 id="chapt">Demo</h2>
       </div>
 
